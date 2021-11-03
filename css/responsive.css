@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1000px) {
+    #myCarousel{
+        display:none;
+    }
+}
+@media only screen and (max-width:991px){
+    #first-header .row-last{
+        text-align: end;
+        padding-top:5px;
+        height:40px;
+    }
+}
+@media only screen and (max-width:768px){
+    /* ##header-slider{
+        overflow: hidden;
+    } */
+    #first-header .row-last{
+        text-align: end;
+        padding-top:5px;
+        height:40px;
+    }
+    #aboutus{
+        overflow: hidden;
+        margin-top: 1433px;
+    }
+    #notice .tab{
+margin-left:10px;
+    }
+    #notice .tabcontent{
+
+    }
+    #notice .tabcontent .slide .card .card-body .card-title{
+        font-size:15px;
+    }
+    #notice .tabcontent .slide .card .card-body .routine{
+        font-size:17px;
+    }
+    #achivement .card{
+        margin-left:150px;
+    }
+    #why_study .card{
+        margin-left:150px;
+    }
+    #upcoming-event .card{
+        margin-left:150px;
+    }
+}
